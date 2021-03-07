@@ -1617,6 +1617,8 @@ void menu()
         }
 
  }
+	TTF_CloseFont(police);
+	TTF_Quit();
 	Mix_FreeChunk(son);
 	Mix_FreeMusic(music);
 	SDL_FreeSurface(screen);
